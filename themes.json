@@ -1,6 +1,11 @@
-// themes.json
+
 {
   "light": {
+    "body": {
+      "height": "100vh",
+      "backgroundColor": "white",
+      "color": "black"
+    },
     "button": {
       "backgroundColor": "blue",
       "color": "white",
@@ -11,14 +16,17 @@
     "header": {
       "color": "darkblue",
       "fontSize": "24px",
-      "fontWeight": "bold"
-    },
-    "background": {
-      "backgroundColor": "white",
-      "color": "black"
+      "fontWeight": "bold",
+      "margin": "0px",
+      "textAlign": "center"
     }
   },
   "dark": {
+    "body": {
+      "height": "100vh",
+      "backgroundColor": "black",
+      "color": "white"
+    },
     "button": {
       "backgroundColor": "gray",
       "color": "white",
@@ -29,11 +37,9 @@
     "header": {
       "color": "lightblue",
       "fontSize": "24px",
-      "fontWeight": "bold"
-    },
-    "background": {
-      "backgroundColor": "black",
-      "color": "white"
+      "fontWeight": "bold",
+      "margin": "0px",
+      "textAlign": "center"
     }
   }
 }
